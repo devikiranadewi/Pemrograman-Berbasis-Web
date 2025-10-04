@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Latihan 2</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin-bottom: 20px;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        th {
+            text-align: center;
+        }
+        .form-title {
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .center {
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-title">Form Input Nilai</div>
+    <form>
+        <table border="1" class="center">
+            <tr>
+                <td><b>NIM</b></td>
+                <td>:</td>
+                <td><input type="text" placeholder="silakan isi NIM"></td>
+            </tr>
+            <tr>
+                <td><b>Nilai Tugas</b></td>
+                <td>:</td>
+                <td><input type="text" placeholder="silakan isi nilai tugas"></td>
+            </tr>
+            <tr>
+                <td><b>Nilai UTS</b></td>
+                <td>:</td>
+                <td><input type="text" placeholder="silakan isi nilai uts"></td>
+            </tr>
+            <tr>
+                <td><b>Nilai UAS</b></td>
+                <td>:</td>
+                <td><input type="text" placeholder="silakan isi nilai uas"></td>
+            </tr>
+            <tr>
+                <td colspan="3" align="center">
+                    <button type="submit">Simpan</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+    <table border="1" class="center">
+        <tr>
+            <th rowspan="2">No</th>
+            <th rowspan="2">NIM</th>
+            <th rowspan="2">Nama</th>
+            <th colspan="3">Nilai</th>
+        </tr>
+        <tr>
+            <th>Tugas</th>
+            <th>UTS</th>
+            <th>UAS</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>A11.2023.12345</td>
+            <td>Apriyani</td>
+            <td>60</td>
+            <td>76</td>
+            <td>90</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>A11.2023.12346</td>
+            <td>Nur</td>
+            <td>76</td>
+            <td>88</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>A11.2023.12347</td>
+            <td>Safitri</td>
+            <td>96</td>
+            <td>78</td>
+            <td>75</td>
+        </tr>
+    </table>
+</body>
+</html>
